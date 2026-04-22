@@ -1,17 +1,32 @@
-# hello_world_app
+# Flutter Counter App
 
-A new Flutter project.
+Aplicación desarrollada en **Flutter/Dart** que implementa un contador interactivo con soporte de **modo claro/oscuro**, persistencia de datos mediante **SharedPreferences** y animaciones dinámicas con **AnimatedSwitcher**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Características
+- Persistencia de estado con SharedPreferences
+- Animaciones con AnimatedSwitcher
+- UI adaptable con modo claro/oscuro
+- Código modular y escalable
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 📦 Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/flutter-counter-app.git
+cd flutter-counter-app
+flutter pub get
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+El uso de la aplicación es sencillo: los botones flotantes permiten incrementar, decrementar o resetear el contador, el switch en el AppBar alterna entre modo claro y oscuro, y el estado del contador junto con la preferencia de tema se mantienen entre sesiones gracias a SharedPreferences. 
+
+Las tecnologías utilizadas son Flutter, Dart y SharedPreferences. 
+
+Puedes agregar capturas de pantalla en la carpeta /screenshots y enlazarlas en este documento para mostrar el modo claro y oscuro. 
+
+Este proyecto está bajo la licencia MIT, consulta el archivo LICENSE para más detalles.
+
+
+
